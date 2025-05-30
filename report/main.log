@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.11.13)  30 MAY 2025 19:49
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.11.13)  30 MAY 2025 20:09
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2377,22 +2377,22 @@ Package microtype Warning: I cannot find a protrusion list for font
 [80]
 
 [81]
-
-[82]
-<img/chap06/call.png, id=1147, 587.19376pt x 220.825pt>
+<img/chap06/call.png, id=1101, 587.19376pt x 220.825pt>
 File: img/chap06/call.png Graphic file (type png)
 <use img/chap06/call.png>
-Package pdftex.def Info: img/chap06/call.png  used on input line 419.
+Package pdftex.def Info: img/chap06/call.png  used on input line 381.
 (pdftex.def)             Requested size: 446.26582pt x 167.82536pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 423--424
+
+[82]
+Underfull \hbox (badness 10000) in paragraph at lines 385--386
 
  []
 
-<img/chap06/start.png, id=1148, 780.9175pt x 678.535pt>
+<img/chap06/start.png, id=1123, 780.9175pt x 678.535pt>
 File: img/chap06/start.png Graphic file (type png)
 <use img/chap06/start.png>
-Package pdftex.def Info: img/chap06/start.png  used on input line 428.
+Package pdftex.def Info: img/chap06/start.png  used on input line 390.
 (pdftex.def)             Requested size: 446.26582pt x 387.75256pt.
 
 
@@ -2477,17 +2477,17 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 73250 strings out of 473681
- 1707583 string characters out of 5719670
- 2829096 words of memory out of 5000000
- 94709 multiletter control sequences out of 15000+600000
+ 73202 strings out of 473681
+ 1706826 string characters out of 5719670
+ 2828093 words of memory out of 5000000
+ 94702 multiletter control sequences out of 15000+600000
  662200 words of font info for 87 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  148i,13n,144p,1796b,3850s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmex10.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi12.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi6.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi8.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr6.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri12.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy8.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt10.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt12.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on main.pdf (96 pages, 4990784 bytes).
+Output written on main.pdf (96 pages, 4983816 bytes).
 PDF statistics:
- 1773 PDF objects out of 2073 (max. 8388607)
- 485 named destinations out of 1000 (max. 500000)
+ 1724 PDF objects out of 1728 (max. 8388607)
+ 444 named destinations out of 1000 (max. 500000)
  14003 words of extra memory for PDF output out of 14400 (max. 10000000)
 

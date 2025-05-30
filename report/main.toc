@@ -101,7 +101,7 @@
 \contentsline {subsubsection}{\numberline {6.4.3.1}Question Answering}{80}{subsubsection.6.4.3.1}%
 \contentsline {subsubsection}{\numberline {6.4.3.2}Text Sentiment Classification}{81}{subsubsection.6.4.3.2}%
 \contentsline {subsubsection}{\numberline {6.4.3.3}Translation}{82}{subsubsection.6.4.3.3}%
-\contentsline {subsubsection}{\numberline {6.4.3.4}How models and fine-tune techniques were called in the project}{83}{subsubsection.6.4.3.4}%
+\contentsline {subsubsection}{\numberline {6.4.3.4}How models and fine-tune techniques were called in the project}{82}{subsubsection.6.4.3.4}%
 \contentsline {section}{\numberline {6.5}Fine-Tuning Results Comparison}{85}{section.6.5}%
 \contentsline {subsection}{\numberline {6.5.1}Overview of Experimental Settings}{85}{subsection.6.5.1}%
 \contentsline {subsection}{\numberline {6.5.2}Evaluation Criteria}{85}{subsection.6.5.2}%

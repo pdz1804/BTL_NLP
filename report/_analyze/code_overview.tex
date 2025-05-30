@@ -242,14 +242,10 @@ Each method provides a trade-off between efficiency and performance, making it p
 \subsubsection{Question Answering}
 
 \begin{lstlisting}[language=Python, caption=Full fine-tuning for QA]
-#BART / T5
+#BART / T5 / Flan-T5-Small
 from transformers import AutoModelForSeq2SeqLM
 model = AutoModelForSeq2SeqLM.from_pretrained(model_path)
 
-
-#GPT-2
-from model.llms.gpt2 import GPT2ForExtractiveQA
-model = GPT2ForExtractiveQA.from_pretrained(model_path)
 \end{lstlisting}
 \textit{Why it fits:} Full fine-tuning is ideal for QA where precise span or text generation is needed. It enables deeper task-specific adaptation for complex reasoning.
 
@@ -272,14 +268,7 @@ lora_config.target_modules = ["q_proj", "v_proj", "k_proj", "out_proj"]
 model = AutoModelForSeq2SeqLM.from_pretrained(model_path)
 model = get_peft_model(model, lora_config)
 
-#GPT-2
-
-lora_config.target_modules = ["attn.c_attn", "attn.c_proj", "mlp.c_proj"]
-model = GPT2ForExtractiveQA.from_pretrained(model_path)
-model = prepare_model_for_kbit_training(model)
-model = get_peft_model(model, lora_config)
-
-#T5
+#T5 / Flan-T5-Small
 
 lora_config.target_modules = ["q", "k", "v"]
 model = AutoModelForSeq2SeqLM.from_pretrained(model_path)
@@ -302,17 +291,10 @@ encoder_hidden_size=model.config.d_model
 model = AutoModelForSeq2SeqLM.from_pretrained(model_path)
 model = get_peft_model(model, peft_config)
 
-AdapterHub for GPT-2 and T5
+#AdapterHub for T5
 
 from adapters import AutoAdapterModel
 from transformers import GPT2Config, T5Config
-
-#GPT-2
-
-config = GPT2Config.from_pretrained(model_path)
-model = AutoAdapterModel.from_pretrained(model_path, config=config)
-model.add_adapter("question_answering")
-model.set_active_adapters("question_answering")
 
 #T5
 
@@ -327,11 +309,9 @@ model.set_active_adapters("question_answering")
 \subsubsection{Text Sentiment Classification}
 
 \begin{lstlisting}[language=Python, caption=Full tuning for TS]
-# BART /  T5
+# BART /  T5 / Flan-T5-Small
 model = AutoModelForSeq2SeqLM.from_pretrained(model_path)
 
-# GPT2 
-model = GPT2LMHeadModel.from_pretrained(model_path)
 \end{lstlisting}
 
 Full fine-tuning ensures that the LLM adapts well to sentiment nuances, which are subtle and require global model changes.
@@ -342,10 +322,7 @@ Full fine-tuning ensures that the LLM adapts well to sentiment nuances, which ar
 # BART
 model = get_peft_model(AutoModelForSeq2SeqLM.from_pretrained(model_path), lora_config)
 
-# GPT2
-model = get_peft_model(GPT2LMHeadModel.from_pretrained(model_path), lora_config)
-
-# T5
+# T5 / Flan-T5-Small
 model = get_peft_model(T5ForConditionalGeneration.from_pretrained(model_path), lora_config)
 \end{lstlisting}
 
@@ -355,12 +332,7 @@ LoRA helps to efficiently adapt attention totional expressions without full retr
 # BART
 model = get_peft_model(AutoModelForSeq2SeqLM.from_pretrained(model_path), peft_config)
 
-# GPT2
-model = AutoAdapterModel.from_pretrained(model_path)
-model.add_adapter("text_sentiment_analysis")
-model.set_active_adapters("text_sentiment_analysis")
-
-# T5
+# T5 / Flan-T5-Small
 model = AutoAdapterModel.from_pretrained(model_path)
 model.add_adapter("text_sentiment_analysis")
 model.set_active_adapters("text_sentiment_analysis")
@@ -371,11 +343,9 @@ Adapters work well with text sentiment due to the modularity of emotion detectio
 \subsubsection{Translation}
 
 \begin{lstlisting}[language=Python, caption=Full tuning for Translation]
-# BART /  T5
+# BART /  T5 / Flan-T5-Small
 model = AutoModelForSeq2SeqLM.from_pretrained(model_path)
 
-# GPT2 
-model = GPT2LMHeadModel.from_pretrained(model_path)
 \end{lstlisting}
 
 In translation, full fine-tuning aligns the entire decoder/encoder structure, which is beneficial for domain-specific terminology.
@@ -384,10 +354,7 @@ In translation, full fine-tuning aligns the entire decoder/encoder structure, wh
 # BART
 model = get_peft_model(AutoModelForSeq2SeqLM.from_pretrained(model_path), lora_config)
 
-# GPT2
-model = get_peft_model(GPT2LMHeadModel.from_pretrained(model_path), lora_config)
-
-# T5
+# T5 / Flan-T5-Small
 model = get_peft_model(AutoModelForSeq2SeqLM.from_pretrained(model_path), lora_config)
 \end{lstlisting}
 
@@ -398,12 +365,7 @@ LoRA balances performance and efficiency, making it suitable for fine-tuning lar
 # BART
 model = get_peft_model(AutoModelForSeq2SeqLM.from_pretrained(model_path), peft_config)
 
-# GPT2
-model = AutoAdapterModel.from_pretrained(model_path)
-model.add_adapter("translation")
-model.set_active_adapters("translation")
-
-# T5
+# T5 / Flan-T5-Small
 model = AutoAdapterModel.from_pretrained(model_path)
 model.add_adapter("translation")
 model.set_active_adapters("translation")
