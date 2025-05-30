@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.11.13)  29 MAY 2025 14:08
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.11.13)  30 MAY 2025 19:49
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1143,7 +1143,7 @@ Package: algpseudocode
 
 Document Style - pseudocode environments for use with the `algorithmicx' style
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 77.
+Package hyperref Info: Option `colorlinks' set `true' on input line 78.
  (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/fancyhdr\fancyhdr.sty
 Package: fancyhdr 2024/07/23 v4.3.1 Extensive control of page headers and footers
 \f@nch@headwidth=\skip92
@@ -1647,32 +1647,36 @@ Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'english'.
-LaTeX Font Info:    Trying to load font information for T5+lmr on input line 125.
+LaTeX Font Info:    Trying to load font information for T5+lmr on input line 126.
  (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/lm\t5lmr.fd
 File: t5lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-) (main.aux (_heading/01_abstract.aux) (_heading/02_description.aux) (_heading/03_overview_transformer.aux) (_heading/04_evolution_transformer.aux) (_heading/05_finetune_technique.aux) (_heading/06_code_engineering.aux) (_heading/07_conclusion.aux) (_heading/08_ref.aux))
+) (main.aux (_heading/01_abstract.aux) (_heading/02_description.aux) (_heading/03_overview_transformer.aux) (_heading/04_evolution_transformer.aux) (_heading/05_finetune_technique.aux) (_heading/06_code_engineering.aux
+
+LaTeX Warning: Label `fig:Tree' multiply defined.
+
+) (_heading/07_conclusion.aux) (_heading/08_ref.aux))
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 125.
-LaTeX Font Info:    ... okay on input line 125.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 125.
-LaTeX Font Info:    ... okay on input line 125.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 125.
-LaTeX Font Info:    ... okay on input line 125.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 125.
-LaTeX Font Info:    ... okay on input line 125.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 125.
-LaTeX Font Info:    ... okay on input line 125.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 125.
-LaTeX Font Info:    ... okay on input line 125.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 125.
-LaTeX Font Info:    ... okay on input line 125.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 125.
-LaTeX Font Info:    ... okay on input line 125.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 125.
-LaTeX Font Info:    ... okay on input line 125.
-LaTeX Font Info:    Checking defaults for T5/cmr/m/n on input line 125.
-LaTeX Font Info:    ... okay on input line 125.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 126.
+LaTeX Font Info:    ... okay on input line 126.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 126.
+LaTeX Font Info:    ... okay on input line 126.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 126.
+LaTeX Font Info:    ... okay on input line 126.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 126.
+LaTeX Font Info:    ... okay on input line 126.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 126.
+LaTeX Font Info:    ... okay on input line 126.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 126.
+LaTeX Font Info:    ... okay on input line 126.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 126.
+LaTeX Font Info:    ... okay on input line 126.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 126.
+LaTeX Font Info:    ... okay on input line 126.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 126.
+LaTeX Font Info:    ... okay on input line 126.
+LaTeX Font Info:    Checking defaults for T5/cmr/m/n on input line 126.
+LaTeX Font Info:    ... okay on input line 126.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1736,13 +1740,13 @@ Package caption Info: longtable package is loaded.
 Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
 )
 Package caption Info: End \AtBeginDocument code.
-Package hyperref Info: Link coloring ON on input line 125.
-LaTeX Info: Redefining \microtypecontext on input line 125.
-Package microtype Info: Applying patch `item' on input line 125.
-Package microtype Info: Applying patch `toc' on input line 125.
-Package microtype Info: Applying patch `eqnum' on input line 125.
-Package microtype Info: Applying patch `footnote' on input line 125.
-Package microtype Info: Applying patch `verbatim' on input line 125.
+Package hyperref Info: Link coloring ON on input line 126.
+LaTeX Info: Redefining \microtypecontext on input line 126.
+Package microtype Info: Applying patch `item' on input line 126.
+Package microtype Info: Applying patch `toc' on input line 126.
+Package microtype Info: Applying patch `eqnum' on input line 126.
+Package microtype Info: Applying patch `footnote' on input line 126.
+Package microtype Info: Applying patch `verbatim' on input line 126.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -1755,7 +1759,7 @@ File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman (
 )
 
 Package pgfplots Warning: running in backwards compatibility mode (unsuitable tick labels; missing features). Consider writing \pgfplotsset{compat=1.18} into your preamble.
- on input line 125.
+ on input line 126.
 
 \c@lstlisting=\count577
 Package biblatex Info: Trying to load language 'english'...
@@ -1771,8 +1775,8 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
  (main.bbl)
-Package biblatex Info: Reference section=0 on input line 125.
-Package biblatex Info: Reference segment=0 on input line 125.
+Package biblatex Info: Reference section=0 on input line 126.
+Package biblatex Info: Reference segment=0 on input line 126.
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
 * paper: letterpaper
@@ -1808,37 +1812,37 @@ Package biblatex Info: Reference segment=0 on input line 125.
 <hcmut.png, id=42, 272.01625pt x 277.035pt>
 File: hcmut.png Graphic file (type png)
 <use hcmut.png>
-Package pdftex.def Info: hcmut.png  used on input line 140.
+Package pdftex.def Info: hcmut.png  used on input line 141.
 (pdftex.def)             Requested size: 170.71652pt x 173.87352pt.
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 145.
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 146.
  (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/lm\ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 145.
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 146.
  (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/lm\omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 145.
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 146.
  (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/lm\omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 145.
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 146.
  (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/lm\omxlmex.fd
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 145.
+(Font)              <12> on input line 146.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 145.
+(Font)              <8> on input line 146.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 145.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 145.
+(Font)              <6> on input line 146.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 146.
  (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 ) (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 145.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 146.
  (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-msb.cfg
@@ -1878,7 +1882,17 @@ l.24 ...e on NLP Benchmarks}{20}{subsection.3.6.2}
 
 
 
-[6{C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}] (main.lot)
+[6{C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}] (main.lot
+LaTeX Font Info:    Trying to load font information for T5+lmtt on input line 8.
+ (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/lm\t5lmtt.fd
+File: t5lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+
+Package microtype Warning: I cannot find a protrusion list for font
+(microtype)                `T5/lmtt/m/n/12'. Switching off
+(microtype)                protrusion for this font on input line 8.
+
+)
 \tf@lot=\write11
 \openout11 = `main.lot'.
 
@@ -1921,7 +1935,7 @@ Chapter 3.
 
 
 ]
-<img/chap03/Transformer_architecture.png, id=480, 803.0pt x 845.1575pt>
+<img/chap03/Transformer_architecture.png, id=565, 803.0pt x 845.1575pt>
 File: img/chap03/Transformer_architecture.png Graphic file (type png)
 <use img/chap03/Transformer_architecture.png>
 Package pdftex.def Info: img/chap03/Transformer_architecture.png  used on input line 23.
@@ -1939,12 +1953,12 @@ File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 [13{C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathex.enc}]
 
 [14]
-<img/chap03/Multiheaded.png, id=511, 247.59166pt x 173.31416pt>
+<img/chap03/Multiheaded.png, id=596, 247.59166pt x 173.31416pt>
 File: img/chap03/Multiheaded.png Graphic file (type png)
 <use img/chap03/Multiheaded.png>
 Package pdftex.def Info: img/chap03/Multiheaded.png  used on input line 179.
 (pdftex.def)             Requested size: 328.82707pt x 230.20346pt.
-<img/chap03/feed-forward.PNG, id=512, 643.203pt x 511.31026pt>
+<img/chap03/feed-forward.PNG, id=597, 643.203pt x 511.31026pt>
 File: img/chap03/feed-forward.PNG Graphic file (type png)
 <use img/chap03/feed-forward.PNG>
 Package pdftex.def Info: img/chap03/feed-forward.PNG  used on input line 210.
@@ -1992,7 +2006,7 @@ Overfull \hbox (5.01392pt too wide) in paragraph at lines 396--397
 
  (_heading/04_evolution_transformer.tex
 Chapter 4.
-<img/chap04/historyllm.png, id=558, 696.6025pt x 394.47375pt>
+<img/chap04/historyllm.png, id=643, 696.6025pt x 394.47375pt>
 File: img/chap04/historyllm.png Graphic file (type png)
 <use img/chap04/historyllm.png>
 Package pdftex.def Info: img/chap04/historyllm.png  used on input line 13.
@@ -2040,7 +2054,7 @@ Overfull \hbox (5.83775pt too wide) in paragraph at lines 137--138
 [29]
 
 [30]
-<img/chap04/neuralmodel.png, id=596, 473.77pt x 344.28625pt>
+<img/chap04/neuralmodel.png, id=681, 473.77pt x 344.28625pt>
 File: img/chap04/neuralmodel.png Graphic file (type png)
 <use img/chap04/neuralmodel.png>
 Package pdftex.def Info: img/chap04/neuralmodel.png  used on input line 204.
@@ -2062,7 +2076,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 [35]
 
 [36]
-<img/chap04/transformer-arch.png, id=627, 722.7pt x 537.00626pt>
+<img/chap04/transformer-arch.png, id=712, 722.7pt x 537.00626pt>
 File: img/chap04/transformer-arch.png Graphic file (type png)
 <use img/chap04/transformer-arch.png>
 Package pdftex.def Info: img/chap04/transformer-arch.png  used on input line 354.
@@ -2071,7 +2085,7 @@ Package pdftex.def Info: img/chap04/transformer-arch.png  used on input line 354
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<img/chap04/transformer-history.png, id=628, 818.05624pt x 650.43pt>
+<img/chap04/transformer-history.png, id=713, 818.05624pt x 650.43pt>
 File: img/chap04/transformer-history.png Graphic file (type png)
 <use img/chap04/transformer-history.png>
 Package pdftex.def Info: img/chap04/transformer-history.png  used on input line 371.
@@ -2086,7 +2100,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 [38 <./img/chap04/transformer-arch.png>]
 
 [39 <./img/chap04/transformer-history.png>]
-<img/chap04/numparam-transformer.png, id=642, 1561.835pt x 941.5175pt>
+<img/chap04/numparam-transformer.png, id=727, 1561.835pt x 941.5175pt>
 File: img/chap04/numparam-transformer.png Graphic file (type png)
 <use img/chap04/numparam-transformer.png>
 Package pdftex.def Info: img/chap04/numparam-transformer.png  used on input line 408.
@@ -2102,7 +2116,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 [41 <./img/chap04/numparam-transformer.png>]
 
 [42]
-<img/chap04/gptstructure.png, id=656, 468.75125pt x 334.24875pt>
+<img/chap04/gptstructure.png, id=741, 468.75125pt x 334.24875pt>
 File: img/chap04/gptstructure.png Graphic file (type png)
 <use img/chap04/gptstructure.png>
 Package pdftex.def Info: img/chap04/gptstructure.png  used on input line 450.
@@ -2110,12 +2124,12 @@ Package pdftex.def Info: img/chap04/gptstructure.png  used on input line 450.
 
 
 [43 <./img/chap04/gptstructure.png>]
-<img/chap04/bertarch.png, id=663, 388.45125pt x 199.74625pt>
+<img/chap04/bertarch.png, id=748, 388.45125pt x 199.74625pt>
 File: img/chap04/bertarch.png Graphic file (type png)
 <use img/chap04/bertarch.png>
 Package pdftex.def Info: img/chap04/bertarch.png  used on input line 461.
 (pdftex.def)             Requested size: 375.80544pt x 193.24768pt.
-<img/chap04/xlnet-arch.png, id=664, 426.59375pt x 298.11375pt>
+<img/chap04/xlnet-arch.png, id=749, 426.59375pt x 298.11375pt>
 File: img/chap04/xlnet-arch.png Graphic file (type png)
 <use img/chap04/xlnet-arch.png>
 Package pdftex.def Info: img/chap04/xlnet-arch.png  used on input line 472.
@@ -2124,7 +2138,7 @@ Package pdftex.def Info: img/chap04/xlnet-arch.png  used on input line 472.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<img/chap04/t5arch.png, id=665, 743.77875pt x 317.185pt>
+<img/chap04/t5arch.png, id=750, 743.77875pt x 317.185pt>
 File: img/chap04/t5arch.png Graphic file (type png)
 <use img/chap04/t5arch.png>
 Package pdftex.def Info: img/chap04/t5arch.png  used on input line 482.
@@ -2151,7 +2165,7 @@ Chapter 5.
 
 
 ]
-<img/chap05/5.1.2.png, id=688, 1360.33218pt x 502.87875pt>
+<img/chap05/5.1.2.png, id=773, 1360.33218pt x 502.87875pt>
 File: img/chap05/5.1.2.png Graphic file (type png)
 <use img/chap05/5.1.2.png>
 Package pdftex.def Info: img/chap05/5.1.2.png  used on input line 24.
@@ -2164,12 +2178,12 @@ Overfull \hbox (11.22626pt too wide) in paragraph at lines 33--34
 
 
 [48 <./img/chap05/5.1.2.png>]
-<img/chap05/5.1.1.png, id=697, 621.07031pt x 280.04625pt>
+<img/chap05/5.1.1.png, id=782, 621.07031pt x 280.04625pt>
 File: img/chap05/5.1.1.png Graphic file (type png)
 <use img/chap05/5.1.1.png>
 Package pdftex.def Info: img/chap05/5.1.1.png  used on input line 47.
 (pdftex.def)             Requested size: 399.29463pt x 180.04515pt.
-<img/chap05/5.2.1.png, id=698, 596.2275pt x 277.78781pt>
+<img/chap05/5.2.1.png, id=783, 596.2275pt x 277.78781pt>
 File: img/chap05/5.2.1.png Graphic file (type png)
 <use img/chap05/5.2.1.png>
 Package pdftex.def Info: img/chap05/5.2.1.png  used on input line 59.
@@ -2177,7 +2191,7 @@ Package pdftex.def Info: img/chap05/5.2.1.png  used on input line 59.
 
 
 [49 <./img/chap05/5.1.1.png>]
-<img/chap05/5.2.2.png, id=705, 182.01334pt x 140.85959pt>
+<img/chap05/5.2.2.png, id=790, 182.01334pt x 140.85959pt>
 File: img/chap05/5.2.2.png Graphic file (type png)
 <use img/chap05/5.2.2.png>
 Package pdftex.def Info: img/chap05/5.2.2.png  used on input line 95.
@@ -2192,7 +2206,7 @@ Overfull \hbox (3.288pt too wide) in paragraph at lines 106--107
 
 
 [51 <./img/chap05/5.2.2.png>]
-<img/chap05/5.2.3.png, id=718, 913.91437pt x 477.28313pt>
+<img/chap05/5.2.3.png, id=803, 913.91437pt x 477.28313pt>
 File: img/chap05/5.2.3.png Graphic file (type png)
 <use img/chap05/5.2.3.png>
 Package pdftex.def Info: img/chap05/5.2.3.png  used on input line 133.
@@ -2202,7 +2216,7 @@ Package pdftex.def Info: img/chap05/5.2.3.png  used on input line 133.
 [52]
 
 [53 <./img/chap05/5.2.3.png>]
-<img/chap05/5.2.4.png, id=731, 662.475pt x 488.57532pt>
+<img/chap05/5.2.4.png, id=816, 662.475pt x 488.57532pt>
 File: img/chap05/5.2.4.png Graphic file (type png)
 <use img/chap05/5.2.4.png>
 Package pdftex.def Info: img/chap05/5.2.4.png  used on input line 169.
@@ -2212,7 +2226,7 @@ Package pdftex.def Info: img/chap05/5.2.4.png  used on input line 169.
 [54]
 
 [55 <./img/chap05/5.2.4.png>]
-<img/chap05/5.2.5.png, id=744, 663.98062pt x 514.92375pt>
+<img/chap05/5.2.5.png, id=829, 663.98062pt x 514.92375pt>
 File: img/chap05/5.2.5.png Graphic file (type png)
 <use img/chap05/5.2.5.png>
 Package pdftex.def Info: img/chap05/5.2.5.png  used on input line 191.
@@ -2220,20 +2234,11 @@ Package pdftex.def Info: img/chap05/5.2.5.png  used on input line 191.
 
 
 [56 <./img/chap05/5.2.5.png>]
-<img/chap05/5.2.6.png, id=751, 654.94687pt x 252.945pt>
+<img/chap05/5.2.6.png, id=836, 654.94687pt x 252.945pt>
 File: img/chap05/5.2.6.png Graphic file (type png)
 <use img/chap05/5.2.6.png>
 Package pdftex.def Info: img/chap05/5.2.6.png  used on input line 215.
 (pdftex.def)             Requested size: 469.75502pt x 181.42166pt.
-LaTeX Font Info:    Trying to load font information for T5+lmtt on input line 224.
- (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/lm\t5lmtt.fd
-File: t5lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-
-Package microtype Warning: I cannot find a protrusion list for font
-(microtype)                `T5/lmtt/m/n/12'. Switching off
-(microtype)                protrusion for this font on input line 224.
-
 
 Overfull \hbox (3.10754pt too wide) detected at line 225
 [] [] [] [] [] []
@@ -2244,7 +2249,7 @@ Overfull \hbox (3.10754pt too wide) detected at line 225
 [57]
 
 [58 <./img/chap05/5.2.6.png>]
-<img/chap05/5.2.7.png, id=763, 744.53156pt x 406.51875pt>
+<img/chap05/5.2.7.png, id=847, 744.53156pt x 406.51875pt>
 File: img/chap05/5.2.7.png Graphic file (type png)
 <use img/chap05/5.2.7.png>
 Package pdftex.def Info: img/chap05/5.2.7.png  used on input line 242.
@@ -2289,7 +2294,7 @@ Overfull \hbox (13.66678pt too wide) in paragraph at lines 463--464
 
  (_heading/06_code_engineering.tex
 Chapter 6.
-(_analyze/experiment.tex
+(_analyze/datasets.tex
 
 [69
 
@@ -2297,19 +2302,118 @@ Chapter 6.
 
 
 ]
+
+[70]
+Overfull \hbox (0.93031pt too wide) detected at line 53
+[] \OT1/lmr/m/n/12 = []\OML/lmm/m/it/12 ;  [] \OT1/lmr/m/n/12 = []
+ []
+
+
+
+[71]
+Overfull \hbox (1.5091pt too wide) in paragraph at lines 73--74
+[]\T5/lmr/bx/n/12 Application\T5/lmr/m/n/12 : Use-ful for bal-anced datasets like IMDb, where it re-flects the model's
+ []
+
+
+
+[72]) (_analyze/code_overview.tex
+<img/chap06/tree.png, id=918, 667.49374pt x 850.17625pt>
+File: img/chap06/tree.png Graphic file (type png)
+<use img/chap06/tree.png>
+Package pdftex.def Info: img/chap06/tree.png  used on input line 8.
+(pdftex.def)             Requested size: 446.26582pt x 568.40868pt.
+
+
+[73]
+
+[74 <./img/chap06/tree.png>]
+Underfull \hbox (badness 6094) in paragraph at lines 55--55
+\T5/lmr/m/n/12 tom load-ers, \T5/lmtt/m/n/12 config.json \T5/lmr/m/n/12 (task-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 55--55
+[]|\T5/lmr/m/n/12 Training util-i-ties; thin wrap-per
+ []
+
+
+Underfull \hbox (badness 3547) in paragraph at lines 55--55
+[]|\T5/lmtt/m/n/12 llms/ \T5/lmr/m/n/12 (hand-crafted wrap-pers for
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 55--55
+[]|\T5/lmr/m/n/12 Task-specific met-ric com-pu-ta-tion;
+ []
+
+<img/chap06/workflow.png, id=928, 587.19376pt x 141.52875pt>
+File: img/chap06/workflow.png Graphic file (type png)
+<use img/chap06/workflow.png>
+Package pdftex.def Info: img/chap06/workflow.png  used on input line 66.
+(pdftex.def)             Requested size: 446.26582pt x 107.56079pt.
+
+
+[75]
+
+[76 <./img/chap06/workflow.png>] (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
+File: lstlang1.sty 2024/09/23 1.10c listings language file
+)
+Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on input line 142.
+
+
+Package microtype Warning: I cannot find a protrusion list for font
+(microtype)                `T5/lmtt/m/n/10'. Switching off
+(microtype)                protrusion for this font on input line 142.
+
+
+
+[77]
+
+[78]
+
+[79]
+
+[80]
+
+[81]
+
+[82]
+<img/chap06/call.png, id=1147, 587.19376pt x 220.825pt>
+File: img/chap06/call.png Graphic file (type png)
+<use img/chap06/call.png>
+Package pdftex.def Info: img/chap06/call.png  used on input line 419.
+(pdftex.def)             Requested size: 446.26582pt x 167.82536pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 423--424
+
+ []
+
+<img/chap06/start.png, id=1148, 780.9175pt x 678.535pt>
+File: img/chap06/start.png Graphic file (type png)
+<use img/chap06/start.png>
+Package pdftex.def Info: img/chap06/start.png  used on input line 428.
+(pdftex.def)             Requested size: 446.26582pt x 387.75256pt.
+
+
+[83 <./img/chap06/call.png>]) (_analyze/experiment.tex
+
+[84 <./img/chap06/start.png>]
+
+[85]
 Overfull \hbox (3.38347pt too wide) in paragraph at lines 71--91
  [][] 
  []
 
 
 
-[70]
+[86]
 
-[71]) (_analyze/final_conclusion.tex
+[87]) (_analyze/final_conclusion.tex
 
-[72]
+[88]
 
-[73]
+[89]
 Underfull \hbox (badness 1205) in paragraph at lines 76--77
 []|\T5/lmr/m/n/12 Highest EM and F1, ex-cel-lent accuracy-
  []
@@ -2321,14 +2425,14 @@ Overfull \hbox (44.00919pt too wide) in paragraph at lines 72--83
 
 
 
-[74]))
+[90]))
 \openout2 = `_heading/07_conclusion.aux'.
 
  (_heading/07_conclusion.tex
 Chapter 7.
 
 
-[75
+[91
 
 
 
@@ -2337,47 +2441,53 @@ Chapter 7.
 Chapter 8.
 (_heading/current_progress.tex) (_heading/future_developments.tex
 
-[76
+[92
 
 
 
 ]) (_heading/special_thanks.tex)
 
-[77]
+[93]
 \openout2 = `_heading/08_ref.aux'.
 
- (_heading/08_ref.tex)
+ (_heading/08_ref.tex
+
+[94
+
+
+])
 
 (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/generic/stringenc\se-pdfdoc.def
 File: se-pdfdoc.def 2019/11/29 v1.12 stringenc: PDFDocEncoding
 ) (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/generic/stringenc\se-utf8.def
 File: se-utf8.def 2019/11/29 v1.12 stringenc: UTF-8
-) [78
-
-
-] 
+) [95] 
 enddocument/afterlastpage: lastpage setting LastPage.
 (main.aux (_heading/01_abstract.aux) (_heading/02_description.aux) (_heading/03_overview_transformer.aux) (_heading/04_evolution_transformer.aux) (_heading/05_finetune_technique.aux) (_heading/06_code_engineering.aux) (_heading/07_conclusion.aux) (_heading/08_ref.aux))
  ***********
 LaTeX2e <2024-11-01>
 L3 programming layer <2024-11-02>
  ***********
+
+
+LaTeX Warning: There were multiply-defined labels.
+
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 72439 strings out of 473681
- 1697408 string characters out of 5719670
- 2715760 words of memory out of 5000000
- 94157 multiletter control sequences out of 15000+600000
- 661886 words of font info for 86 fonts, out of 8000000 for 9000
+ 73250 strings out of 473681
+ 1707583 string characters out of 5719670
+ 2829096 words of memory out of 5000000
+ 94709 multiletter control sequences out of 15000+600000
+ 662200 words of font info for 87 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  148i,13n,144p,1796b,3850s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmex10.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi12.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi6.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi8.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr6.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri12.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy8.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt12.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on main.pdf (79 pages, 4436544 bytes).
+<C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmex10.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi12.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi6.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi8.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr6.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri12.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy8.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt10.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt12.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on main.pdf (96 pages, 4990784 bytes).
 PDF statistics:
- 1271 PDF objects out of 1440 (max. 8388607)
- 236 named destinations out of 1000 (max. 500000)
- 13807 words of extra memory for PDF output out of 14400 (max. 10000000)
+ 1773 PDF objects out of 2073 (max. 8388607)
+ 485 named destinations out of 1000 (max. 500000)
+ 14003 words of extra memory for PDF output out of 14400 (max. 10000000)
 

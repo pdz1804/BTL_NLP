@@ -5,9 +5,11 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {6.1}{\ignorespaces Translation}}{70}{table.caption.29}%
-\contentsline {table}{\numberline {6.2}{\ignorespaces Question Answering}}{70}{table.caption.30}%
-\contentsline {table}{\numberline {6.3}{\ignorespaces Text Sentiment}}{70}{table.caption.31}%
-\contentsline {table}{\numberline {6.4}{\ignorespaces Recommended model and tuning method combinations per task}}{74}{table.caption.32}%
+\contentsline {table}{\numberline {6.1}{\ignorespaces Core folders in \texttt {finetuning-language-models-project}}}{75}{table.caption.30}%
+\contentsline {table}{\numberline {6.2}{\ignorespaces Stage responsibilities in the workflow}}{76}{table.caption.32}%
+\contentsline {table}{\numberline {6.3}{\ignorespaces Translation}}{86}{table.caption.35}%
+\contentsline {table}{\numberline {6.4}{\ignorespaces Question Answering}}{86}{table.caption.36}%
+\contentsline {table}{\numberline {6.5}{\ignorespaces Text Sentiment}}{86}{table.caption.37}%
+\contentsline {table}{\numberline {6.6}{\ignorespaces Recommended model and tuning method combinations per task}}{90}{table.caption.38}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }

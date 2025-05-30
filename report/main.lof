@@ -26,5 +26,9 @@
 \contentsline {figure}{\numberline {5.8}{\ignorespaces The two-stage process of instruction tuning. Step 1 (left) illustrates the instruction dataset construction, where text-label templates and seed instructions are expanded using stronger models like ChatGPT and GPT-4 to generate diverse instruction-output pairs. Step 2 (right) shows the actual instruction tuning phase, where the constructed dataset is used to perform supervised fine-tuning on the target LLM.}}{58}{figure.caption.27}%
 \contentsline {figure}{\numberline {5.9}{\ignorespaces Complete RLHF training pipeline. The process begins with pretraining on large text corpora (left), followed by supervised fine-tuning on demonstration data. The RLHF-specific components (outlined by the dashed box) include reward model training from human comparison data and reinforcement learning optimization. The figure also shows typical data scales for each stage and examples of models that have used these techniques.}}{59}{figure.caption.28}%
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Project structure}}{74}{figure.caption.29}%
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Workflow}}{76}{figure.caption.31}%
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Configure finetune params}}{83}{figure.caption.33}%
+\contentsline {figure}{\numberline {6.4}{\ignorespaces Start trainer}}{84}{figure.caption.34}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }

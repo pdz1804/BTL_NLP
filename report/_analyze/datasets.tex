@@ -1,0 +1,130 @@
+\section{Overview of Selected Language Models}
+This repository includes experiments and fine-tuning workflows for three transformer-based language models: T5-Base, BART-Base, and Flan-T5-Small. These models represent state-of-the-art approaches in natural language processing (NLP), each with unique architectures and training objectives tailored for a variety of tasks, including text generation, comprehension, and instruction-based learning.
+
+\subsection{T5-Base}
+T5-Base is a Text-to-Text Transformer (Encoder-Decoder) model developed by Google Research, with approximately 220 million parameters. It formulates all NLP tasks as a text-to-text problem, providing a unified framework for sequence modeling. This approach simplifies task-specific architectures by treating every task as a transformation from input text to output text. The base variant strikes a balance between model size and performance, making it versatile for tasks such as question answering, summarization, and translation. It is licensed under Apache 2.0.
+
+\subsection{BART-Base}
+BART-Base is a Sequence-to-Sequence Model (Encoder-Decoder) developed by Facebook AI, with approximately 139 million parameters. It leverages bidirectional encoding (like BERT) for understanding context and autoregressive decoding (like GPT) for generation. This combination makes BART particularly effective for tasks requiring both comprehension and generation, such as text summarization, machine translation, and question answering. It is licensed under the MIT License.
+
+\subsection{Flan-T5-Small}
+Flan-T5-Small is an Instruction-Tuned Text-to-Text Transformer (Encoder-Decoder) model developed by Google Research, with approximately 80 million parameters. It is a fine-tuned version of T5, specifically trained on instruction-based datasets. This fine-tuning enhances its ability to generalize to unseen tasks with minimal supervision, making it ideal for low-resource applications and prototyping. The small variant is particularly lightweight, offering efficiency without sacrificing performance on instruction-driven tasks. It is licensed under Apache 2.0.
+
+\textbf{Notes}:
+\begin{itemize}
+    \item T5-Base and Flan-T5-Small share the same underlying architecture but differ in their fine-tuning objectives, with Flan-T5 emphasizing instruction-based learning.
+    \item All models are compatible with the Hugging Face Transformers library, facilitating easy integration into NLP workflows.
+\end{itemize}
+
+\section{Dataset Descriptions}
+
+\subsection{SQuAD Dataset}
+The Stanford Question Answering Dataset (SQuAD) is a widely used benchmark for evaluating question answering systems. Available at \url{https://huggingface.co/datasets/rajpurkar/squad}, it consists of over 100,000 question-answer pairs derived from Wikipedia articles. Each question is paired with a passage and a human-annotated answer, typically a span of text from the passage. SQuAD is designed to assess a model's ability to comprehend text and accurately answer questions based on the provided context, making it ideal for reading comprehension and question answering tasks.
+
+\subsection{IMDb Dataset}
+The IMDb dataset is a standard resource for sentiment analysis, accessible at \url{https://huggingface.co/datasets/stanfordnlp/imdb}. It contains 50,000 movie reviews from the Internet Movie Database, equally split into 25,000 positive and 25,000 negative reviews. Each review is labeled with its sentiment polarity (positive or negative). This dataset is used to evaluate models on binary text classification tasks, focusing on a model's ability to detect sentiment expressed in user-generated text.
+
+\subsection{WMT Dataset}
+The WMT16 dataset for English-to-German translation, available at \url{https://huggingface.co/datasets/wmt/wmt16}, is part of the Workshop on Machine Translation (WMT) series. It includes parallel corpora of English and German sentences drawn from sources like news articles, parliamentary proceedings, and web data. With millions of sentence pairs, this dataset is designed to train and evaluate machine translation systems, emphasizing the quality of translations between English and German.
+
+\section{Evaluation Metrics}
+
+\subsection{Metrics for SQuAD (Question Answering)}
+For evaluating question answering performance on SQuAD, two primary metrics are used: Exact Match (EM) and F1 score.
+
+\begin{itemize}
+    \item \textbf{Exact Match (EM)}:
+    \begin{itemize}
+        \item \textbf{Description}: Measures the percentage of predictions that exactly match the ground truth answer, ignoring case and punctuation.
+        \item \textbf{Purpose}: Assesses a model's ability to produce precise, verbatim answers.
+        \item \textbf{Formula}: 
+        \[
+        \text{EM} = \frac{\text{Number of exact matches}}{\text{Total number of questions}} \times 100
+        \]
+        \item \textbf{Application}: EM is stringent, rewarding only perfect predictions. It is useful for evaluating the precision of span-based question answering systems.
+    \end{itemize}
+    \item \textbf{F1 Score}:
+    \begin{itemize}
+        \item \textbf{Description}: Computes the harmonic mean of precision and recall over the predicted and ground truth answer tokens.
+        \item \textbf{Purpose}: Balances precision and recall, accounting for partial matches in predicted answers.
+        \item \textbf{Formula}:
+        \[
+        \text{Precision} = \frac{|\text{Predicted} \cap \text{Ground Truth}|}{|\text{Predicted}|}, \quad \text{Recall} = \frac{|\text{Predicted} \cap \text{Ground Truth}|}{|\text{Ground Truth}|}
+        \]
+        \[
+        \text{F1} = 2 \times \frac{\text{Precision} \times \text{Recall}}{\text{Precision} + \text{Recall}}
+        \]
+        \item \textbf{Application}: F1 is more forgiving than EM, making it suitable for evaluating models where partial correctness is valuable, such as in complex question answering.
+    \end{itemize}
+\end{itemize}
+
+\subsection{Metrics for IMDb (Sentiment Analysis)}
+Sentiment analysis on the IMDb dataset is evaluated using Accuracy, Precision, Recall, and F1 Score.
+
+\begin{itemize}
+    \item \textbf{Accuracy}:
+    \begin{itemize}
+        \item \textbf{Description}: Measures the percentage of correctly classified reviews (positive or negative).
+        \item \textbf{Purpose}: Provides a straightforward measure of overall model performance.
+        \item \textbf{Formula}:
+        \[
+        \text{Accuracy} = \frac{\text{Number of correct predictions}}{\text{Total number of predictions}}
+        \]
+        \item \textbf{Application}: Useful for balanced datasets like IMDb, where it reflects the model's overall correctness.
+    \end{itemize}
+    \item \textbf{Precision}:
+    \begin{itemize}
+        \item \textbf{Description}: Measures the proportion of positive predictions that are actually positive.
+        \item \textbf{Purpose}: Evaluates the model's ability to avoid false positives.
+        \item \textbf{Formula}:
+        \[
+        \text{Precision} = \frac{\text{True Positives}}{\text{True Positives} + \text{False Positives}}
+        \]
+        \item \textbf{Application}: Critical in applications where false positives are costly.
+    \end{itemize}
+    \item \textbf{Recall}:
+    \begin{itemize}
+        \item \textbf{Description}: Measures the proportion of actual positive reviews correctly identified.
+        \item \textbf{Purpose}: Assesses the model's ability to capture all positive instances.
+        \item \textbf{Formula}:
+        \[
+        \text{Recall} = \frac{\text{True Positives}}{\text{True Positives} + \text{False Negatives}}
+        \]
+        \item \textbf{Application}: Important when missing positive instances is undesirable.
+    \end{itemize}
+    \item \textbf{F1 Score}:
+    \begin{itemize}
+        \item \textbf{Description}: Harmonic mean of precision and recall.
+        \item \textbf{Purpose}: Balances precision and recall for a comprehensive evaluation.
+        \item \textbf{Formula}: As defined in the above section.
+        \item \textbf{Application}: Preferred when both false positives and false negatives need to be minimized.
+    \end{itemize}
+\end{itemize}
+
+\subsection{Metrics for WMT (Machine Translation)}
+Machine translation performance on the WMT dataset is evaluated using BLEU and Cosine Similarity.
+
+\begin{itemize}
+    \item \textbf{BLEU (Bilingual Evaluation Understudy)}:
+    \begin{itemize}
+        \item \textbf{Description}: Measures the similarity between machine-generated translations and reference translations based on n-gram overlap.
+        \item \textbf{Purpose}: Quantifies translation quality by comparing n-grams, adjusted for brevity.
+        \item \textbf{Formula}:
+        \[
+        \text{BLEU} = \text{BP} \times \exp\left( \sum_{n=1}^{N} w_n \log p_n \right)
+        \]
+        where $\text{BP}$ is the brevity penalty, $p_n$ is the n-gram precision, and $w_n$ are weights (typically $w_n = 1/N$ for $N=4$).
+        \item \textbf{Application}: Widely used in machine translation to assess fluency and adequacy, though it may not capture semantic nuances.
+    \end{itemize}
+    \item \textbf{Cosine Similarity}:
+    \begin{itemize}
+        \item \textbf{Description}: Measures the cosine of the angle between vector representations of the predicted and reference translations.
+        \item \textbf{Purpose}: Evaluates semantic similarity between translations using word or sentence embeddings.
+        \item \textbf{Formula}:
+        \[
+        \text{Cosine Similarity} = \frac{\mathbf{A} \cdot \mathbf{B}}{||\mathbf{A}|| \cdot ||\mathbf{B}||}
+        \]
+        where $\mathbf{A}$ and $\mathbf{B}$ are vector representations of the predicted and reference translations.
+        \item \textbf{Application}: Useful for capturing semantic equivalence, complementing BLEU by focusing on meaning rather than exact word matches.
+    \end{itemize}
+\end{itemize}
